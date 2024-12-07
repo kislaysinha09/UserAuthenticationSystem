@@ -8,8 +8,8 @@ npm install
 Step 3- Set up environment variables
 
 PORT=8000
-MONGO_URI=your-mongodb-uri
-JWT_SECRET=your-jwt-secret
+DATABASE_URL=your-mongodb-uri
+SECRET_KEY=your-jwt-secret
 
 Step 4- Start the server
 npm start
